@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 while True:
     
     time.sleep(3600)
-    cmt= open('/home/hasan/Documents/commit/DailyCommit/commit.txt', "w")
+    cmt= open('/home/ubuntu/commit/DailyCommit/commit.txt', "w")
     words =("Hi","hello","Trying to commit","my life is good","Commit for timleine","In progress....")
     word = random.choice(words)
     cmt.write(word)
@@ -14,7 +14,7 @@ while True:
     cmt.close()
     
     # Replace these with your own values
-    repo_path = '/home/hasan/Documents/commit/DailyCommit'
+    repo_path = '/home/ubuntu/DailyCommit'
 
     github_username = 'hasan-kayan'
     github_repo = 'DailyCommit'
