@@ -5,7 +5,7 @@ import random
 from bs4 import BeautifulSoup
 while True:
     
-    time.sleep(3600)
+    time.sleep(5)
     cmt= open('/home/ubuntu/commit/DailyCommit/commit.txt', "w")
     words =("Hi","hello","Trying to commit","my life is good","Commit for timleine","In progress....")
     word = random.choice(words)
