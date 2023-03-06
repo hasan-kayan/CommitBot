@@ -16,8 +16,8 @@ while True:
     # Replace these with your own values
     repo_path = '/home/ubuntu/DailyCommit'
 
-    github_username = 'hasan-kayan'
-    github_repo = 'DailyCommit'
+    github_username = 'furkanadiiguzel'
+    github_repo = 'gitCommit'
     commit_message = 'Daily'
 
     # Set up Git environment variables
@@ -38,6 +38,6 @@ while True:
     subprocess.run(['git', 'commit', '-m', commit_message])
 
     # Push changes to Github
-    github_token = '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'
+    github_token = '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'
 
     subprocess.run(['git', 'push', f'https://{github_token}@github.com/{github_username}/{github_repo}.git'])
