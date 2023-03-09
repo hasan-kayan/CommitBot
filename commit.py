@@ -2,10 +2,8 @@ import os
 import subprocess
 import time
 import random
-from bs4 import BeautifulSoup
 while True:
     
-    time.sleep(5)
     cmt= open('/home/ubuntu/commit/DailyCommit/commit.txt', "w")
     words =("Hi","hello","Trying to commit","my life is good","Commit for timleine","In progress....")
     word = random.choice(words)
@@ -16,8 +14,8 @@ while True:
     # Replace these with your own values
     repo_path = '/home/ubuntu/DailyCommit'
 
-    github_username = 'furkanadiiguzel'
-    github_repo = 'gitCommit'
+    github_username = 'hasan-kayan'
+    github_repo = 'DailyCommit'
     commit_message = 'Daily'
 
     # Set up Git environment variables
@@ -38,6 +36,10 @@ while True:
     subprocess.run(['git', 'commit', '-m', commit_message])
 
     # Push changes to Github
-    github_token = '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'
+    github_token = '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'
 
     subprocess.run(['git', 'push', f'https://{github_token}@github.com/{github_username}/{github_repo}.git'])
+    times = (14400, 21600, 28800, 36000, 43200, 50400, 57600, 64800, 72000, 79200)
+    a =random.choice(times)
+    print("I will be wating for the commit for", a, "seconds,which is eqaul to", a/3600, "hours")
+    time.sleep(a)     
