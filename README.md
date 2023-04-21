@@ -2,14 +2,19 @@
 
 ## Purpose of The Bot 
 
-    This bot has a simple purpose, commit on a regular basis. By using your personal account information, this bot stays awake on a server you set up and aims to commit at intervals you specify. In order for this to work properly and for the bot not to shut itself down, some adjustments need to be made carefully.
+    This bot has a simple purpose, commit on a regular basis. By using your personal account information, 
+    this bot stays awake on a server you set up and aims to commit at intervals you specify.
+    In order for this to work properly and for the bot not to shut itself down, some adjustments need to be made carefully.
 
 ## How To Use 🍳 
 
-    Before installing the bot, we need to make some adjustments, first you need to create a Github Token, this token acts as a key to automate the usage in your account and to create management permission with commands. To create this token, you can check out my github token creation post 😀. 
+    Before installing the bot, we need to make some adjustments, first you need to create
+    a Github Token, this token acts as a key to automate the usage in your account and to create management permission with commands. 
+    To create this token, you can check out my github token creation post 😀. 
     Remember, do not share your token with anyone and save it in a safe place. 
 
-    Lets check the simple flow of the code ⏭ "Choose a random word." ⏭ " Write the word in to commit.txt file at the Daily Commit Repository" ⏭ " Commit it " ⏭ " Wait for the next commit as much as you wish" 
+    Lets check the simple flow of the code 
+    ⏭ "Choose a random word." ⏭ " Write the word in to commit.txt file at the Daily Commit Repository" ⏭ " Commit it " ⏭ " Wait for the next commit as much as you wish" 
 
     Now lets start with understanding the code... 
 
