@@ -5,7 +5,7 @@ import random
 while True:
     # Commit changes to repo by the random words in commit.txt
     
-    cmt= open('/home/ubuntu/commit/DailyCommit/commit.txt', "w")
+    cmt= open('/home/ubuntu/Commit/Second-Task-CAS/commit.txt', "w")
     words =("Hi","hello","Trying to commit","my life is good","Commit for timleine","In progress....")
     word = random.choice(words)
     cmt.write(word)
@@ -16,10 +16,10 @@ while True:
 
     # Replace these with your own values
 
-    repo_path = '/home/ubuntu/DailyCommit'
+    repo_path = '/home/ubuntu/Commit/Second-Task-CAS'
 
     github_username = 'hasan-kayan'
-    github_repo = 'DailyCommit'
+    github_repo = 'Second-Task-CAS'
     commit_message = 'Daily'
 
     # Set up Git environment variables
