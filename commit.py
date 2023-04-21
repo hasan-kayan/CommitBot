@@ -39,7 +39,5 @@ while True:
     github_token = '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'
 
     subprocess.run(['git', 'push', f'https://{github_token}@github.com/{github_username}/{github_repo}.git'])
-    times = (14400, 21600, 28800, 36000, 43200, 50400, 57600, 64800, 72000, 79200)
-    a =random.choice(times)
-    print("I will be wating for the commit for", a, "seconds,which is eqaul to", a/3600, "hours")
-    time.sleep(a)     
+   
+    time.sleep(52000)     
