@@ -13,21 +13,24 @@
 
     Now lets start with understanding the code... 
 
-    - ![image1](https://user-images.githubusercontent.com/80827760/233621956-c65c3218-1dce-46e8-bf19-a4b618de3410.png)
+   ![Resim1](https://user-images.githubusercontent.com/80827760/233622801-8fcb93db-fb07-4f8e-bd51-e0dde5af3ba6.png)
+
 
     Here we are adding neccesary libraries. And now we are writnig some simple words and creating a list by them. 
     As you know, if there is no change in the repo or if this change is the same as before, Github may not accept this commit because there is no change, to prevent this situation, we choose a random word from our list of a few words and write it to our commit.txt file.
-
-    ![image2](https://user-images.githubusercontent.com/80827760/233622018-0fd92584-c5cd-4041-92e1-6b6637318703.png)
+    
+![Resim2](https://user-images.githubusercontent.com/80827760/233622822-af94a3f2-2f44-4a98-9e05-e51f86752804.png)
 
     I am using AWS system EC2 so I have a file path for DailyCommit Repository I have cloned. You have to make the necessary arrangements according to the cloud system you will use and your structure there. After you write your Github username, the name of the repository you want to commit regularly and the message to be added to each commit, you can proceed to the next step. 
 
-    ![image3](https://user-images.githubusercontent.com/80827760/233622095-55f36302-27b1-4f9e-ab12-4184ddeae2cc.png)
+  ![Resim3](https://user-images.githubusercontent.com/80827760/233622854-59874bea-df0e-4d68-99e0-a6b1c7641b6d.png)
+
     
     We complete the settings for Github here and authorize and edit the server you set up, there is no need to make any personal changes here. 
+    
+![Resim4](https://user-images.githubusercontent.com/80827760/233622869-b7bd04cb-6af1-466e-8fab-344429e1de82.png)
 
-    ![image4](https://user-images.githubusercontent.com/80827760/233622136-16e40fed-421e-4d87-8457-a8f9ea178035.png)
-
+ 
 
     We are installing the changes we have made in the files by applying the terminal commands. Here we write the Github token that will be asked, the token that we created before. How often you want to commit in the last part, you can shorten or extend the time by changing the time.sleep() value.
 
