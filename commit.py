@@ -7,8 +7,15 @@ while True:
     
     cmt= open('/home/ubuntu/commit/DailyCommit/commit.txt', "w")
     words =("Hi","hello","Trying to commit","my life is good","Commit for timleine","In progress....")
+
     word = random.choice(words)
+    word2 = random.choice(words)
+    word3 = random.choice(words)
+
     cmt.write(word)
+    cmt.write(word2)
+    cmt.write(word3)
+    
 
     cmt.close()
     
