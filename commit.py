@@ -1,7 +1,8 @@
 import os
 import subprocess
 import time
-import random
+
+# Commit changes to repo by the random words in commit.txt
 i=0 
 while True:
     
