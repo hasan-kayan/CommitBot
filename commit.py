@@ -8,7 +8,7 @@ while True:
     
     # Commit changes to repo by the random words in commit.txt
     cmt= open('/home/ubuntu/Commit/Second-Task-CAS/commit.txt', "w")
-    words =("Hi","hello","Trying to commit","my life is good","Commit for timleine","In progress...., ", "Increasing options","HasanKayan","I am a student","I am a developer","I am a programmer","I am a coder","I am a hacker","I am a bug hunter",)
+    words =("Hi","hello","Trying to commit","my life is good","Commit for timleine","In progress...s.., ", "Increasing options","HasanKayan","I am a student","I am a developer","I am a programmer","I am a coder","I am a hacker","I am a bug hunter",)
     cmt.write(words[i])
     cmt.close()
 
