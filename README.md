@@ -38,5 +38,13 @@
  
 
     We are installing the changes we have made in the files by applying the terminal commands. Here we write the Github token that will be asked, the token that we created before. How often you want to commit in the last part, you can shorten or extend the time by changing the time.sleep() value.
+    
+ # Cloud Automation Approach 
+
+If you want to run this program on a cloud machine you only need to organise paths according to your cloud system. I am currently using this bot on my AWS EC2 system which allows me to use it without using my local PC. If you have any questions about how to use this bot on a cloud machine, please feel free to contact with me. 
+Thank you for reading. 
+E-Mail: hasankayan.formal@gmail.com
+E-Mail: hasankayan2000@hotmail.com 
+
 
     
